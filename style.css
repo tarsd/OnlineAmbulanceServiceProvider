@@ -1,0 +1,29 @@
+@font-face{font-family:open-sans-r;
+src:url('../font/opensans-regular.ttf')
+}
+a{text-decoration:none;}
+body{margin:0px; padding:0px;font-family:open-sans-r; background:url('../img/home-bg.jpg');     background-size: 100%; background-attachment:fixed; }
+
+.main-page{width:100%; float:left; text-align:center;height:100%;}
+.main-page h1{text-align:center; font-size:26px;color: #fff; margin-top:20%; margin-bottom:0px;}
+.main-page h3{margin-top:5px; margin-bottom:20px;color: #d0d0d0;font-size: 15px;}
+.getting_user_location-page h2{ text-align:center; color:#fff;}
+.getting_user_location-page{color:#fff; text-align:center;}
+.main-page .home-page-btn{text-align:center; background:#00BCD4; padding:5px 10px; border-radius:5px; margin:0 15px;font-size: 14px; color:#fff;}
+.main-page .home-page-btn:hover{background:#00add4;}
+.main-page .home-page-btn1{text-align:center; background:#d41302; padding:5px 10px; border-radius:5px; margin:0 15px;font-size: 14px; color:#fff;}
+.main-page .home-page-btn1:hover{background:#bc1102;}
+
+body.end_query{padding-top:15%; background:url('../img/endobg.jpg'); background-size:cover;text-align: center;color: #fff;}
+.list_nearest_ambulance{color:#fff; text-align:center;}
+.list_nearest_ambulance table{margin:0 auto; margin-top:20%;}
+.getting_user_location{background: rgba(255, 255, 255, 0.80);width: 50%;margin:20px auto;padding: 15px;display: table;}
+.getting_user_location h1{font-size:20px;color:#00add4;}
+.getting_user_location label{width: 100%;float: left; margin:10px 0 5px;color: #4c4c4c; font-size:13px;    text-align: left;}
+.getting_user_location input[type="text"]{width: 100%;float: left; height:30px; padding-left:10px;}
+.getting_user_location input[type="tel"]{width: 100%;float: left; height:30px; padding-left:10px;}
+.getting_user_location input[type="password"]{width: 100%;float: left; height:30px; padding-left:10px;}
+.getting_user_location .text-12{font-size:12px; color:#4c4c4c; display:inline-block;}
+.getting_user_location .submit-btn{width: 100%;float: left;}
+.getting_user_location .getting-btn{text-align:center; background:#00BCD4; padding:5px 10px; border-radius:5px; margin:10px 5px 0 0;font-size:13px; color:#fff; border:none; cursor:pointer;}
+.getting_user_location .getting-btn:hover{background:#00add4;}
